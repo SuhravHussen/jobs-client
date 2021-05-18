@@ -1,0 +1,54 @@
+.Home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search__input {
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 100%;
+  padding: 12px 24px;
+  margin-top: 10%;
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  font-size: 14px;
+  line-height: 18px;
+  color: #575756;
+  background-color: transparent;
+}
+.search__input::placeholder {
+  color: rgba(87, 87, 86, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.search__input:hover,
+.search__input:focus {
+  padding: 12px 0;
+  outline: 0;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #575756;
+  border-radius: 0;
+  background-position: 100% center;
+}
+.jobs-container {
+  margin-top: 6%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  width: 40%;
+}
+input.search-btn {
+  /* height: 43px; */
+  width: 75px;
+  border: none;
+  margin-top: 10%;
+  background: darkseagreen;
+  border-radius: 10px;
+}
